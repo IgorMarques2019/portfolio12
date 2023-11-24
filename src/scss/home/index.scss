@@ -1,0 +1,30 @@
+@import '../componentes';
+@import '../cores';
+@import '../fontes';
+
+html {
+  scroll-behavior: smooth;
+  &::-webkit-scrollbar{
+    width:0;
+  }
+}
+
+@media screen and (max-width:992px) {
+  #cta-inicio {
+    img {
+     aspect-ratio:1/1;
+     object-fit:cover;
+    }
+   }
+}
+
+
+
+#solutions  {
+  border-top:5px solid $c001;
+  .card-servicos{
+    svg {
+      max-width:30px;
+    }
+  }
+}

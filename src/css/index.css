@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Poppins:wght@400;700&display=swap");
+.bg-c001 {
+  background-color: #30ff71;
+}
+
+.btn-contorno-verde {
+  border: 1px solid #30ff71;
+  color: #30ff71;
+}
+
+.btn-verde {
+  background-color: #30ff71;
+  color: #343434;
+}
+
+.square {
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.bg-c001 {
+  background-color: #30ff71;
+}
+
+.chacra {
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.poppins {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+  width: 0;
+}
+
+@media screen and (max-width: 992px) {
+  #cta-inicio img {
+    aspect-ratio: 1/1;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+#solutions {
+  border-top: 5px solid #30ff71;
+}
+#solutions .card-servicos svg {
+  max-width: 30px;
+}/*# sourceMappingURL=index.css.map */
